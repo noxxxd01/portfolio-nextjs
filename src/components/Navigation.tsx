@@ -20,7 +20,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="flex sticky top-0 justify-between items-center px-3 lg:px-8 h-20 bg-white z-50 transition-all ease-in-out dark:bg-[#121212] ">
+    <div className="flex sticky top-0 justify-between items-center px-3 lg:px-8 h-20 bg-white z-50 transition-all ease-in-out dark:bg-[#121212]">
       <div>
         <Link
           href="/"

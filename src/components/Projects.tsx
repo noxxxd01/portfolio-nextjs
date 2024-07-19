@@ -5,7 +5,7 @@ import { Project } from "../app/types";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 my-8">
+    <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 py-8">
       {projects.map((project: Project) => (
         <Link href={`/projects/${project.id}`} key={project.id}>
           <div className="rounded-2xl group relative cursor-pointer items-center justify-center overflow-hidden">
